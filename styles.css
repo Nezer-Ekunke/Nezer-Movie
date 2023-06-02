@@ -1,0 +1,34 @@
+img{
+    width: 30%;
+    height: 10%;
+    border-radius: 10%;
+}
+
+a:hover{
+    color: yellow;
+}
+
+body{
+    background-color: thistle;
+}
+
+hr{
+    height:1px;
+    background-color: black;
+    width: 90%;
+}
+
+/* Code to make an image responsive */
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
